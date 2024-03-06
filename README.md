@@ -1,2 +1,18 @@
 # Ocean_Navigation_System_CSharp_ConsoleBased
-In ocean navigation, locations are measured in degrees and minutes of latitude and longitude. Thus if you’re lying off the mouth of Papete Harbor in Tahiti, your location is 149 degrees 34.8 minutes west longitude, and 17 degrees 31.5 minutes south latitude. This is written as 149°34.8’ W, 17°31.5’ S. There are 60 minutes in a degree. (An older system also divided a minute into 60 seconds, but the modern approach is to use decimal minutes instead.) Longitude is measured from 0 to 180 degrees, east or west from Greenwich, England, to the international dateline in the Pacific. Latitude is measured from 0 to 90 degrees, north or south from the equator to the poles.
+Ocean Navigation is a console-based application designed to manage ship positions and serial numbers effectively.
+
+## Features
+
+1. **Add Ship**: Allows users to add a new ship to the navigation system, providing details such as ship name, position, and serial number.
+2. **View Ship Position**: Displays the current position of a specific ship by entering its serial number.
+3. **View Ship Serial Number**: Retrieves and displays the serial number of a ship based on its name or position.
+4. **Change Ship Position**: This enables users to update the position of a ship by entering its serial number and specifying the new coordinates.
+5. **Exit**: Terminates the application and ends the current session.
+
+## Usage
+
+To use Ocean Navigation, select the desired option from the menu presented in the console interface. Follow the prompts to input ship details or retrieve information as needed.
+
+## Getting Started
+
+To get started with Ocean Navigation, clone this repository to your local machine and compile the source code using any compatible C# compiler.
